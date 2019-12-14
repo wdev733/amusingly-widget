@@ -1,0 +1,25 @@
+.sync_data_container{width:100%; float:left; background:transparent;}
+.cont_img_container {
+    float: left;
+    padding: 0 5px;
+    width: 25%;
+}
+.sync_data_container .cont_img {
+    float: left;
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+.sync_data_container .cont_img img {
+    background: none repeat scroll 0 0 #fff;
+    display: inline;
+    max-width: 306px;
+    padding: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+@media only screen and (max-width: 767px) {
+	.cont_img_container {
+		width:50%;
+	}
+}

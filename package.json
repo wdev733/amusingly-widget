@@ -1,0 +1,20 @@
+{
+  "name": "amusingly-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "aws s3 sync public/ s3://amusingly-widget-sync-api --acl public-read"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdev733/amusingly-widget.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdev733/amusingly-widget/issues"
+  },
+  "homepage": "https://github.com/wdev733/amusingly-widget#readme"
+}

@@ -1,0 +1,217 @@
+.am-slider-container{width:100%; display:inline-block;position:relative;}
+.am-slider-wrapper {padding: 0 4%; width: 92%;margin: 0 auto;}
+#am-slider .item{margin: 3px;}
+#am-slider .item img{display: block;width: 100%;height: auto;}
+.am-slider-prev, .am-slider-next {
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.5;
+  padding: 30px 10px;
+  position: absolute;
+  top: 35%;
+  z-index: 9999;
+}
+.am-slider-prev:hover, .am-slider-next:hover {background: rgba(0,0,0,0.8);}
+.am-slider-prev {left:0;}
+.am-slider-next {right:0;}
+#inline-popup-content{padding:25px; background:#fff;}
+.am-popuop-wrapper {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  font:100 14px "Raleway",Arial;
+}
+/*.am-header{width:100%;}*/
+.am-right .author {
+    display: inline-block;
+    padding-top: 15px;
+    width: 100%;
+}
+.am-right a.author-info {
+  width: 100%;
+}
+.am-right .author .author-avatar {
+  max-height: 60px;
+  max-width: 100%;
+  margin:0 auto;
+}
+.am-popuop-wrapper .am-powered > img {
+  margin:0 auto;
+}
+.am-right .author .author-names {
+  font-weight: bold;
+}
+.am-right .author .icon-source {
+  margin-right: 5px;
+}
+.am-sharing a span {
+  float: left;
+  padding-left: 10px;
+}
+.am-sharing img {
+  float: left;
+  padding-top: 3px;
+}
+.am-sharing a {
+  font-family: arial;
+  font-size: 12px;
+  line-height: 25px;
+}
+.am-right .author .author-names span {
+  color: #000;
+  display: inline-block;  
+}
+.am-right .author .author-names a.author-handlename {
+  background:url("../images/insta-api.png") no-repeat scroll left center;
+ color: #000;
+    display: inline-block;
+    font-weight: 700;
+    margin: 15px 0;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.am-right .author .author-names span.author-realname {
+  clear: both;
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.am-right .author .author-names span.author-realname span{
+  border-top: 1px solid #ccc;
+  padding: 15px 10px 0;
+}
+.pop_product_list {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  min-height: 165px;
+  overflow-y: auto;
+}
+.pop_product_list .pop_product {
+  float: left;
+  width: 50%;
+}
+.pop_product_list img {
+  width: 100%;
+}
+.pop_product > a span {
+  color: black;
+  font-weight: 400;
+}
+.am-right .photo-caption {
+  clear: both;
+  text-align: center;
+  font-weight: 300;
+  font-size: 13px;
+ /*  min-height: 200px; */
+  max-height: 220px;
+  overflow: hidden;
+  padding: 15px 0;
+  margin:0;
+  text-overflow: ellipsis;
+  white-space: normal;
+  /* word-break: break-all; */
+}
+.am-left{width:55%; float:left;}
+.am-right {
+  float: right;
+  padding-left: 2%;
+  text-align: center;
+  width: 43%;
+}
+/*.am-featured-photo{width:100%;}*/
+.am-featured-photo img {
+  max-width: 490px;
+  min-width: 480px;
+}
+.am-featured-photo video {
+  max-width: 490px;
+  min-width: 480px;
+}
+.inline.am-group.cboxElement {
+  display: inline-block;
+  position: relative;
+}
+.locate_video {
+  left: 30%;
+  position: absolute;
+  top: 30%;
+}
+/* .locate_video > img {
+  width: 40px !important;
+} */
+.am-sharing {
+  display: inline-block;
+  padding: 15px 0 30px;
+
+}
+.am-sharing ul {
+  text-align: left;
+  margin: 0;
+padding: 0;
+}
+.am-sharing ul li {
+  float: left;
+  height: 26px;
+  list-style: outside none none;
+  padding: 0 20px;
+}
+.am-sharing ul li.am-border {
+  border:1px solid #ccc;
+  border-width:0 1px;
+}
+.am-powered{margin:0;}
+.am-buynow{display:none;}
+.am-buynow ul li {display: inline-block; }
+.am-buynow a.buynow {
+  padding: 10px 25px;
+  background: #ccc;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align:center;
+}
+.am-buynow a.buynow:hover {
+  background: #999;
+}
+@media only screen and (max-width: 1000px) {
+	.am-right .author {
+    padding-top: 0;
+	}	
+	.am-featured-photo img {
+		max-width: 490px;
+		min-width: 100%;
+	}
+	.am-sharing {
+    width:100%;
+	}
+	.am-sharing ul li {
+    padding: 0;
+    width: 33.33%;
+    text-align: center;
+	}
+	.am-sharing ul li.am-border {
+    border-width: 0;
+	}
+	
+}
+@media only screen and (max-width: 750px) {
+	#inline-popup-content{padding:25px 0;}
+	.am-left{width:100%;text-align: center;}
+	.am-right {
+		padding: 20px 3%;
+		width: 94%;
+	}
+	.am-featured-photo img {
+		width: 100%;
+	}
+	.am-right .photo-caption{min-height: 0;}
+	.am-buynow ul li {
+		width: 100%;
+	}
+	.am-buynow a.buynow {
+		padding: 10px 2%;
+		width: 96%;
+	}
+}
